@@ -26,7 +26,7 @@ function describeTemperature(temperature){
     }else{
         description = "very hot"
     }
-    return `It's ${description}. The temperature in Celsius is ${Math.round(temperature)}.`;
+    return `The temperature in Celsius is ${Math.round(temperature)}.The temperature would feel ${description}.`;
 }
 
 
